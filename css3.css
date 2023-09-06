@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    margin-left:100px;
+    margin-top:200px;
+    width:80vw;
+    border:1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+}
+
+.header{
+    color:white;
+    background-color: rgb(45, 209, 56);
+}
+.active{
+    background-color: rgb(201, 201, 201);
+}
+
+span{
+    width:500px;
+}

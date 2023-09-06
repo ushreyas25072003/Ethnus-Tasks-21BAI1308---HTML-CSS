@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding:100px 200px;
+    border:1.5px solid black;
+    margin:100px 100px;
+    height:70vh;
+    position:relative;
+}
+.mainh1{
+    margin-bottom:30px;
+}
+.sidenav{
+     width:60px;
+     height:60px;
+     background-color:green;
+     position:absolute;
+     top:10%;
+     left:0%;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     transition:width .5s;
+}
+
+.sidenav2{
+     width:60px;
+     height:60px;
+     background-color:cyan;
+     position:absolute;
+     top:25%;
+     left:0%;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     transition:width .5s;
+}
+
+.sidenav3{
+     width:60px;
+     height:60px;
+     background-color:red;
+     position:absolute;
+     top:40%;
+     left:0%;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     transition:width .5s;
+}
+
+.sidenav4{
+     width:60px;
+     height:60px;
+     background-color:grey;
+     position:absolute;
+     top:55%;
+     left:0%;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     transition:width .5s;
+}
+
+.sidenav:hover{
+    width:200px;
+    transition:width .5s;
+}
+.sidenav2:hover{
+    width:200px;
+    transition:width .5s;
+}
+.sidenav3:hover{
+    width:200px;
+    transition:width .5s;
+}
+.sidenav4:hover{
+    width:200px;
+    transition:width .5s;
+}

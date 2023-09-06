@@ -1,0 +1,44 @@
+        td,th{
+    border:1px solid black;
+    border-radius: 8px;
+    width:400px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shape{
+    width:200px;
+    height:150px;
+    border:1.5px solid rgb(32, 178, 78);
+    margin:20px 90px;
+}
+.s1{
+    border-radius:10px;
+}
+.s2{
+    border-radius:20px;
+}
+.s3{
+    border-radius: 40px;
+}
+.s4{
+    border-radius: 35px;
+}
+.s5{
+    border-radius: 5px;
+}
+.s6{
+    border-radius: 35px;
+}
+.s7{
+    border-radius: 50%;
+}
+.s8{
+    border-radius:15px;
+}
+.s9{
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
